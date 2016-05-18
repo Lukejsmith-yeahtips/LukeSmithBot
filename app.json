@@ -1,0 +1,32 @@
+{
+  "name": "LukeSmithBot",
+  "scripts": {
+  },
+  "env": {
+    "SERVICE_URL": {
+      "required": true
+    },
+    "SMOOCH_APP_TOKEN": {
+      "required": true
+    },
+    "SMOOCH_KEY_ID": {
+      "required": true
+    },
+    "SMOOCH_SECRET": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
